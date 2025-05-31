@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms</title>
+    <!-- <style>
+        .t2{
+            margin: auto;
+            border-collapse: collapse;
+        }
+        .t2 td,th{
+            border: 1px solid ;
+            padding: 20px 40px 40px 10px;
+            text-align: center;
+        }
+        .t2 th{
+            background-color: rgb(180, 170, 199);
+        }
+    </style> -->
+</head>
+
+<body>
+    <!-- <h1 style="text-align: center;">Time Table For DS(A)-</h1>
+    <table border="8px">
+        <tr>
+            <th>Day/Time</th>
+            <th>9-10</th>
+            <th>10-11</th>
+            <th>11-12</th>
+            <th>12-1</th>
+            <th>1-2</th>
+            <th>2-3</th>
+            <th>3-4</th>
+            <th>4-5</th>
+        </tr>
+        <tr>
+            <th rowspan="2">MOnday</th>
+            <td>SE</td>
+            <td>Elective</td>
+            <td>CN</td>
+            <td>ML</td>
+            <th rowspan="10">Lunch</th>
+            <td colspan="2">Elective</td>
+            <td>CN</td>
+        </tr>
+        <tr>
+            <td>XYZ</td>
+            <td>Archit</td>
+            <td>Ms.Nidhi</td>
+            <td>MS.Nisha</td>
+            <td colspan="2">Archit</td>
+            <td>MS.Nidhi</td>
+        </tr>
+        <tr>
+            <th rowspan="2">Tuesday</th>
+            <td>AI</td>
+            <td>ML</td>
+            <td colspan="2">DAA LAB</td>
+            <td colspan="2">PA</td>
+            <td>IS</td>
+        </tr>
+        <tr>
+            <td>MS.Nisha</td>
+            <td>MS.Nisha</td>
+            <td colspan="2">MS.Anamika</td>
+            <td colspan="2">Mr.Sover</td>
+            <td>MS.Nisha</td>
+
+        </tr>
+        <tr>
+            <th rowspan="2">Wednesday</th>
+            <td>SE</td>
+            <td>Elective</td>
+            <td>CN</td>
+            <td>ML</td>
+            <td colspan="2">Elective</td>
+            <td>CN</td>
+        </tr>
+        <tr>
+            <td>XYZ</td>
+            <td>Archit</td>
+            <td>Ms.Nidhi</td>
+            <td>MS.Nisha</td>
+            <td colspan="2">Archit</td>
+            <td>MS.Nidhi</td>
+        </tr>
+        <tr>
+            <th rowspan="2">Thursday</th>
+            <td>AI</td>
+            <td>ML</td>
+            <td colspan="2">DAA LAB</td>
+            <td colspan="2">PA</td>
+            <td>IS</td>
+        </tr>
+        <tr>
+            <td>MS.Nisha</td>
+            <td>MS.Nisha</td>
+            <td colspan="2">MS.Anamika</td>
+            <td colspan="2">Mr.Sover</td>
+            <td>MS.Nisha</td>
+
+        </tr>
+        <tr>
+            <th rowspan="2">Friday</th>
+            <td>AI</td>
+            <td>ML</td>
+            <td colspan="2">DAA LAB</td>
+            <td colspan="2">PA</td>
+            <td>IS</td>
+        </tr>
+        <tr>
+            <td>MS.Nisha</td>
+            <td>MS.Nisha</td>
+            <td colspan="2">MS.Anamika</td>
+            <td colspan="2">Mr.Sover</td>
+            <td>MS.Nisha</td>
+
+        </tr>
+    </table>
+    <table class="t2">
+        <caption style="font-size: 48px; font-weight: 200;">College Infrastructure</caption>
+        <tr>
+            <th>Building</th>
+            <th>Floors</th>
+            <th>Rooms</th>
+            <th>Facilities</th>
+        </tr>
+        <tr>
+            <td>Main Building</td>
+            <td>5</td>
+            <td>50</td>
+            <td>Lecture Halls,Offices</td>
+        </tr>
+        <tr>
+            <td>Library</td>
+            <td>1</td>
+            <td>1</td>
+            <td>Study Area , Book Collection</td>
+        </tr>
+        <tr>
+            <td>Sports Complex</td>
+            <td>2</td>
+            <td>5</td>
+            <td>Gym,Badminton Court,Kabbadi Court,Table Tennis</td>
+        </tr>
+    </table>
+    <a href=""><img src="" alt=""></a> -->
+    <h2>Html5 Input Examples</h2>
+    <form >
+        <label for="dateInput">Date:</label>
+        <input type="date" id="dateInput" name="dateInput"><br><br><br><br>
+
+        <label for="numberInput">Number:</label>
+        <input type="number" id="numberInput" name="numberInput"><br><br>
+
+        <label for="rangeInput">Range:</label>
+        <input type="range" id="rangeInput" name="rangeInput"><br><br>
+
+        <label for="emailInput">Your Email:</label>
+        <input type="email" id="emailInput" name="emailInput"><br><br>
+
+        <label for="searchInput">Search:</label>
+        <input type="search" id="searchInput" name="searchInput"><br><br>
+
+        <label for="datalist">Datalist:</label>
+        <input type="text" id="datalist" name="datalist" list="fruits"><br><br>
+        
+        <label for="fr">Select Fruits</label>
+        <select name="select" id="fr">
+            <option value="new">Apple</option>
+            <option value="new">Banana</option>
+            <option value="new">Grapes</option>
+            <option value="new">Guava</option>
+            <option value="new">Lemon</option>
+        </select><br><br>
+
+        <datalist id="fruits">
+            <option value="Apple"></option>
+            <option value="Mango"></option>
+            <option value="Guava"></option>
+            <option value="Banana"></option>
+            <option value="Grapes"></option>
+        </datalist><br><br>
+        <button type="submit">Submit</button>
+
+    </form>
+    
+</body>
+
+</html>

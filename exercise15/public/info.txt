@@ -1,0 +1,12 @@
+  write a Node.js program to clear clutter inside of a 
+  directory and organise the contents of that directory
+  into different folders
+
+  for ex-
+     1.name.png
+     2-name.jpg
+     3-this.pdf
+     4-harry.zip
+     5-rohan.zip
+     6-cat.jpg
+     7-this2.pdf

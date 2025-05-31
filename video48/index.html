@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ballanimation</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        .container{
+            background-color: blue;
+            height: 70vh;
+            width: 80vw;
+        }
+        .ball{
+            background-color: brown;
+            height: 80px;
+            width: 80px;
+            position: absolute;
+            bottom: 30vh;
+            border-radius: 60px;
+            animation: ballanimationx 7s linear infinite ,ballanimationy 1s ease-out infinite alternate;
+            
+        }
+        @keyframes ballanimationx{
+            from{
+                left: 0%;
+            }
+            to{
+                left: 80%;
+            }
+        }
+        @keyframes ballanimationy{
+            from{
+                bottom: 30%;
+            }
+            to{
+                bottom: 80%;
+
+            }
+
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="ball"></div>
+    </div>
+</body>
+</html>

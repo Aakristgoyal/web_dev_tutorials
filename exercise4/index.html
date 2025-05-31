@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Multi-color nav bar</title>
+    <style>
+        /* :root{
+            --textcolor:rgb(229, 224, 238);
+            --primarycolor:rgb(38, 75, 176);
+            --secondarycolor:rgb(119, 111, 210);
+        } */
+        :root{
+            --textcolor:rgb(229, 224, 238);
+            --primarycolor:rgb(38, 176, 70);
+            --secondarycolor:rgb(111, 210, 136);}
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        body{
+            background-color: var(--secondarycolor);
+        }
+        nav{
+            color:  var(--textcolor);
+            background-color: var(--primarycolor);
+        }
+        ul li{
+            list-style: none;
+            display: inline;
+            margin: 23px;
+            padding: 2px 2px 2px 2px;
+            color:var(--color);
+
+
+        }
+        div{
+            color: var(--color);
+            background-color: var(--background-color);
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li>Home</li>
+                <li>About</li>
+                <li>Contact</li>
+                <li>Login</li>
+                <li>Register</li>
+            </ul>
+        </header>
+        <div>Welcome to the web page!! </div>
+    </div>
+</body>
+
+</html>

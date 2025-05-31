@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>More on css selectors</title>
+    <style>
+        .box:first-child{
+            /* background-color: blue; */
+        }
+        .boxes::first-line{
+            color: brown;
+        }
+        [data-x="first"]{
+            margin:2px;
+            padding: 35PX;
+        }
+        .boxes::before{
+            content: "I am Aakrist";
+        }
+        ::selection{
+            color:red;
+            background-color: blue;;
+        }
+        input::placeholder{
+            color:rgb(144, 144, 210);
+        }
+    </style>
+</head>
+<body>
+    <div class="boxes">
+        <div  data-x="first" class="box">hey i am a box Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate dolorem laborum voluptatum. Molestiae iure error atque assumenda consectetur! Nisi amet quam quia explicabo!</div>
+        <div class="box">hey i am a box</div>
+        <div class="box">hey i am a box</div>
+        <input type="text" placeholder="Type your Name"> Sigma course is op!!
+    </div>
+</body>
+</html>

@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>css animation</title>
+    <style>
+        .cont{width: 30vw;
+            height: 70vh;
+            background-color: rgba(66, 212, 164, 0.778);
+             
+        }
+        .box{
+            width: 34px;
+            height: 40px;
+            background-color: rgba(89, 89, 210, 0.478);
+            animation-name: myanim;
+            animation-timing-function: ease-out;
+            animation-duration: 3s;
+            animation-delay: 1s;
+            animation-iteration-count: infinite;
+            animation-direction: alternate-reverse;
+        }
+        @keyframes myanim{
+            from{
+                 transform: translateX(50px);
+
+            }
+            to{
+                transform: translatex(1000px);
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="cont">
+        <div class="box">box</div>
+    </div>
+</body>
+</html>

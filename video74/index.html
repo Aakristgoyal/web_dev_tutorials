@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .container{
+            margin: 10px;
+            padding: 12px;
+            background-color: yellowgreen;
+            border: 2px solid rgb(15, 15, 15);
+        }
+        .box{
+            margin: 14px;
+            padding: 20px;
+            background-color: aqua;
+            border: 2px solid rgb(15, 15, 15);
+        }
+    </style>
+</head>
+<body>
+    <div class="container">start blinking
+        <div class="box">stop blinking</div>
+    </div>
+    <button id="btn">change Content by double clicking</button>
+    <script src="script.js"></script>
+    <script>
+        function randomColorGenerator() {
+    let a=Math.ceil(0+Math.random()*255);
+    let b=Math.ceil(0+Math.random()*255);
+    let c=Math.ceil(0+Math.random()*255);
+    return `rgb(${a},${b},${c})`
+}
+        document.querySelector(".box").addEventListener("click",(e)=>{
+            e.stopPropagation()
+            clearInterval(1);
+        })
+        document.querySelector(".container").addEventListener("click",()=>{
+            // e.stopPropagation
+        })
+        let a=setInterval(() => {
+            document.querySelector(".box").style.backgroundColor=randomColorGenerator();
+            
+        }, 100);
+        console.log(a);
+        // setTimeout(() => {
+        //     document.querySelector(".box").style.backgroundColor=randomColorGenerator();
+            
+        // }, 100);
+    </script>
+</body>
+</html>
