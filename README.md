@@ -16,7 +16,6 @@ The repository is organized into the following directories:
 - **Fullstack_Projects/**: Comprehensive projects combining frontend and backend development.
 - **Resources/**: Curated list of tutorials, articles, and tools that have been instrumental in my learning.
 
-*Note: Each directory contains a `README.md` with detailed explanations and instructions.*
 
 ## 🚀 Getting Started
 
