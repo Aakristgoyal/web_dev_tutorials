@@ -1,0 +1,19 @@
+.navbar{
+    background-color: #4d0ca9;
+    color: white;
+    padding: 10px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+}
+.navbar ul{
+    display: flex;
+    gap: 28px;
+    font-size: 20px;
+    font-weight: 500;
+    list-style-type: none;
+    color: white;
+}

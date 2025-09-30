@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .box{
+            width: 200px;
+            height: 120px;
+            border: 2px solid black;
+            padding: 10px;
+            margin: auto;
+        }
+    </style>
+</head>
+<body>
+    <div class="box box1">I am box 1</div>
+    <div class="box box2">I am box 2</div>
+    <div class="box box3">I am box 3</div>
+    <script>
+        setTimeout(() => {
+            document.querySelector('.box1').style.backgroundColor = 'red';
+            document.querySelector('.box1').style.color = 'white';
+        }, 1000);
+        setTimeout(() => {
+            document.querySelector('.box2').style.backgroundColor='green';
+            document.querySelector('.box2').style.color = 'white';
+        }, 2000);
+        setTimeout(() => {
+            document.querySelector('.box3').style.backgroundColor = 'blue';
+            document.querySelector('.box3').style.color = 'white';
+            document.querySelector('.box3').innerHTML='I have been changed';
+        },3000)
+    </script>
+</body>
+</html>

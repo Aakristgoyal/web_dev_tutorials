@@ -1,0 +1,22 @@
+.card{
+    width: 20vw;
+    height: 20vh;
+    border: 1px solid grey;
+    border-radius:10px;
+    text-align: center;
+    background-color: rgb(213, 200, 200);
+    border: none;
+}
+.card h1{
+    color: rgb(189, 23, 23);
+    font-size: 25px;
+    padding: 8px;
+}
+.card button{
+    padding: 10px;
+    margin: 10px;
+    background-color: rgb(203, 22, 22);
+    color: white;
+    border: none;
+    border-radius: 12px;
+}
