@@ -1,0 +1,16 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+nav{
+  display: flex;
+  background: #47d808;
+  padding: 23px;
+}
+ul{
+  display: flex;
+  gap: 34px;
+}
+li{
+  list-style-type: none;
+}
